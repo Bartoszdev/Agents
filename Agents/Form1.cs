@@ -16,5 +16,11 @@ namespace Agents
         {
             InitializeComponent();
         }
+        SecretAgent agent = new SecretAgent();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            agent.AgentGreeting(textBox1.Text);
+        }
     }
 }
